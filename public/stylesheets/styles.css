@@ -1,0 +1,153 @@
+    body {
+    background:#fff;
+	width:750px;
+	margin:0pt auto;
+    padding:0;
+	padding-bottom:10px;
+	color:#000;
+    font:x-small/1.5em Georgia,Serif; voice-family: "\"}\""; voice-family:inherit;
+    font-size:small;
+    /*border: 1px solid #666;*/
+    } html>body {font-size:small;}
+      
+    #header {		
+	float:right;
+	width:100%;
+    background: url("http://dl.dropbox.com/u/28839629/ban3c.jpg") no-repeat;
+    background-color: :#DAE0D2 
+	position:relative;
+	font-size:85%;
+    line-height:normal;
+    }
+ 
+    #contents {
+	background : #fff;
+	border : 1px solid #000;
+	border-top:none;
+	clear : both;
+	margin : 0px;
+	padding : 15px;
+	}
+	
+	#contents a {
+	text-decoration:none;	
+	}
+	
+	#contents a:hover {
+	color:#333;	
+	}
+    
+    #header ul { 
+    margin:0; 
+    padding:101px 10px 0; 
+    list-style:none; 
+    }    
+
+    #header li {
+    float:right;
+	background:url("/images/left2.gif") no-repeat left top;
+    margin:0;
+    padding:0 0 0 9px;
+    text-decoration:none;
+    }    
+
+    #header a, #header strong, #header span {
+    display:block;
+    background:url("/images/right2.gif")
+      	no-repeat right top;
+    padding:5px 13px 4px 7px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#765;
+    }
+
+    #header a:hover {
+	color:#333;
+	}
+	
+    #header #current {
+    background-image:url("/images/left_on2.gif");
+    }
+    
+    #header #current a {
+    background-image:url("/images/right_on2.gif");
+    color:#333;
+	padding-bottom:5px;
+    }
+	
+	html, body {
+  	margin: 10;
+	}	
+
+    h1 {
+	font-size:24px;
+	}
+
+    h2 {
+	font-size:18px;
+	}
+
+    #leftcol {
+  	font-size:90%;
+	width: 150px;
+	float:left;
+	padding-top: 1em;
+ 	}
+ 	
+ 	#leftcol a {
+	text-decoration:none;	
+	}
+ 	
+ 	#leftcol a:hover {
+	color:#333;	
+	}
+
+    #rightcol {
+	font-size:90%;
+	margin-left: 160px;
+	width: 500px;
+	border-left: 1px solid gray;
+	padding-left: 2.5em;
+	padding-top: 1em;
+	}
+
+    #rightcol2 {
+	margin-left: 160px;
+	width: 500px;
+	padding-left: 2.5em;
+	padding-top: 0em;
+	}
+
+    .bullet {
+	margin-left:15px;
+	}
+
+    .bullet2 {
+	list-style:none;
+	margin-left:0;
+	padding:0;
+	cursor:default;
+	}
+
+    .bullet2li {
+	padding:5px 5px;
+	}
+
+    #footer {
+	margin: 50px
+	padding: 0 3em; 
+	font-size:75%; 
+	color:Grey; 
+	text-align:center;
+	}
+	
+	#left {
+	float:left;
+	margin: 1em 1em 1em 0;
+	}
+
+	#right {
+	float:right;
+	margin: 1em 1em 0 1em;
+	}
+

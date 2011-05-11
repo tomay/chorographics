@@ -1,10 +1,10 @@
 <div id="header">
 
   <ul>
-    <li><a href="http://www.chorographics.com/consult.html">Consulting</a></li>
-    <li><a href="http://www.chorographics.com/cv.html">C.V.</a></li>
-    <li id="current"><a href="http://www.chorographics.com/projects.html">Projects</a></li>
-    <li><a href="http://www.chorographics.com/index.html">About</a></li>
+    <li><%= link_to "Consulting", consult_index_path %></li>
+    <li><%= link_to "C.V.", cv_index_path %></li>
+    <li id="current"><%= link_to "Projects", projects_index_path %></li>
+    <li><%= link_to "About", home_index_path %></li>
   </ul>
 </div>
 
@@ -27,7 +27,7 @@
 <h2 id="Irvine">Irvine Ranch Conservancy</h2>
 <b>GIS system design and set up, conservation GIS analysis, online GIS library</b>
 <p><b>Client:</b> <a href="http://www.irvineranchconservancy.org" target="_blank">Irvine Ranch Conservancy</a></p>
-<p><img id="left" src="images/cwren.jpg"> The Irvine Ranch Conservancy is responsible for managing roughly
+<p><img id="left" src="http://dl.dropbox.com/u/28839629/cwren.jpg"> The Irvine Ranch Conservancy is responsible for managing roughly
 50,000 acres of open space in Southern California. These lands include
 large blocks of increasingly rare Mediterranean habitats such as
 coastal sage scrub, oak woodland and riparian forests. A wide variety
@@ -63,13 +63,13 @@ information. The system was programmed using open source tools including <a href
 <p style="font-size: 90%;">Above, screenshot showing search results for
 "Pocket Mouse" in the GIS library/database. Searches can be filtered by
 additional terms for location and data category.</p>
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br />
 <br />
 <br />
 
 <h2 id="Gambia">The Gambia</h2>
-<img id="right" src="images/bolong.jpg"><strong>Biodiversity Database and Monitoring System</strong>
+<img id="right" src="http://dl.dropbox.com/u/28839629/bolong.jpg"><strong>Biodiversity Database and Monitoring System</strong>
 <p><strong>Clients:</strong> Department of Parks and Wildlife Management, The Gambia; <a href="http://www.gefweb.org/">The Global Environment Facility (GEF)</a>; <a href="http://www.panda.org/warpo">WWF-Senegal</a>.</p>
 <p>The Gambia’s coastal and marine biodiversity is nationally and internationally significant and provides important ecosystem services to local communities. Although a set of conservation areas is currently in place to safeguard this heritage, biodiversity resources in the region face considerable and increasing pressure from a human population expected to grow at an annual rate 3-4% into the foreseeable future and nearly double to 2 million people by the year 2025.</p>
 
@@ -101,14 +101,14 @@ Allnutt, T.F., Dia, I.M. and Touray, O. 2007. <a href="http://www.chorographics.
 <p style="font-size: 90%;">Above, first version of biodiversity
 monitoring database showing forms for data entry (click on image for
 larger version in new window).</p>
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br>
 <br>
 <br>
 
 <h2 id="Madagascar">Madagascar</h2>
 <p><b>Clients:</b> <a href="http://www.usaid.gov/missions/mg/">US-AID Madagascar</a>; <a href="http://www.conservation.org/xp/CIWEB/regions/africa/madagascar.xml">Conservation International-Madagascar</a>; <a href="http://www.worldwildlife.org/wildplaces/mad/">WWF-Madagascar</a>.</p>
-<p><img id="left" src="images/mad_kids.jpg">Extraordinary levels of endemism and high rates of deforestation
+<p><img id="left" src="http://dl.dropbox.com/u/28839629/mad_kids.jpg">Extraordinary levels of endemism and high rates of deforestation
 place the Indian Ocean island of Madagascar near the top of virtually
 every conservation priority list. Since 2002, I have been working on a
 variety of conservation projects in Madagascar, as both an employee of
@@ -145,7 +145,7 @@ deforestation, and other threats.</p>
 <p style="font-size: 90%;">Above, DRAFT WWF priorities for the Ala Atsinanana (Moist Forest) Ecoregion (click on image for larger version in new window).</p>
 <br>
 <p id="Durban"><strong>Durban Vision, Priority Setting Sub-Group</strong></p>
-<p><img id="right" src="images/mad_blur.jpg">Madagascar president Marc Ravolomanana announced a plan at the World
+<p><img id="right" src="http://dl.dropbox.com/u/28839629/mad_blur.jpg">Madagascar president Marc Ravolomanana announced a plan at the World
 Parks Congress in 2004 to more than triple the size of Madagascar's
 protected area network from 1.7 million to 6 million hectares. Soon
 after, several committees of local and international scientists and
@@ -176,14 +176,14 @@ shown below.</p><br>
 conservation targets for Lemurs (left), Amphibians (middle), and
 threatened Reptiles (right) (click on images for larger versions in new
 window).</p>
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br>
 <br>
 <br>
 
 <h2 id="Guianas">Guianan Moist Forests</h2>
 <p><strong>Clients:</strong> <a href="http://www.wwfguianas.org/">WWF-Guianas</a>; <a href="http://wwf.us/about_wwf/where_we_work/latin_america_and_caribbean/solutions_region/guianas/index.cfm">WWF-US</a>.</p>
-<p><img id="left" src="images/gy.jpg">Like the Moist Forests of Madagascar described above, the Guianan
+<p><img id="left" src="http://dl.dropbox.com/u/28839629/gy.jpg">Like the Moist Forests of Madagascar described above, the Guianan
 Moist Forests are also a WWF "Global 200" priority ecoregion.
 Stretching across almost 550,000 km² of Northeastern South America,
 these tropical broadleaf forests, though relatively under-explored, are
@@ -210,11 +210,11 @@ parameters. The final Vision priority areas will be selected from a
 series of MARXAN scenarios similar to the one shown above. (Click for
 larger version in new window).</p>
 <br>
-<a href="http://www.chorographics.com/images/gec_veg.jpg" target="GECDraft" onclick="return !window.open('http://www.chorographics.com/images/gec_veg.jpg','GECDraft', 'width=770,height=560,resizable=1,scrollbar=no')">
-<img src="http://www.chorographics.com/images/gec_veg.jpg" style="margin-left: 0pt;" border="1" width="325">
+<a href="http://dl.dropbox.com/u/28839629/gec_veg.jpg" target="GECDraft" onclick="return !window.open('http://dl.dropbox.com/u/28839629/gec_veg.jpg','GECDraft', 'width=770,height=560,resizable=1,scrollbar=no')">
+<img src="http://dl.dropbox.com/u/28839629/gec_veg.jpg" style="margin-left: 0pt;" border="1" width="325">
 </a>
 <p style="font-size: 90%;">Above, DRAFT ecoregion-wide vegetation map of the Guianan Moist Forests. (Click for larger version in new window).</p>
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br>
 <br>
 <br>
@@ -245,7 +245,7 @@ population, development and land protection over time.</p>
 Highlands, one of six William Penn Foundation land conservation focal
 areas (click on image for larger version in new window).</p>
 
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br>
 <br>
 <br>
@@ -275,7 +275,7 @@ user understands that this software is provided "as is", and that no
 warranty of any kind is given or implied]. To use the extension and
 tutorial, download the file, unzip, and begin by reading the
 instructions provided in the README.txt file.</p>
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br>
 <br>
 <br>
@@ -299,8 +299,8 @@ results of this exercise. In the second example, USAID recently used
 the tool for a similar exercise to rank countries by biological value.
 USAID is using the results to inform budgetary allocations for
 biodiversity conservation.</p>
-<a href="http://www.chorographics.com/images/screen.jpg" target="ScreenDraft" onclick="return !window.open('http://www.chorographics.com/images/screen.jpg','ScreenDraft', 'width=685,height=545,resizable=1,scrollbar=no')">
-<img src="http://www.chorographics.com/images/screen.jpg" style="margin-left: 0px;" border="1" width="330">
+<a href="http://dl.dropbox.com/u/28839629/screen.jpg" target="ScreenDraft" onclick="return !window.open('http://dl.dropbox.com/u/28839629/screen.jpg','ScreenDraft', 'width=685,height=545,resizable=1,scrollbar=no')">
+<img src="http://dl.dropbox.com/u/28839629/screen.jpg" style="margin-left: 0px;" border="1" width="330">
 </a>
 <p style="font-size: 90%;">Above, screen shot of ArcView based tool for
 prioritization and display of areas according to biological rank.
@@ -313,7 +313,7 @@ prioritization and display of areas according to biological rank.
 <br>
 
 
-<a href="http://www.chorographics.com/projects.html">Return to top</a>
+<%= link_to "Return to top", projects_index_path %>
 <br>
 
 </div>

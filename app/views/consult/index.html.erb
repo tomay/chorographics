@@ -1,2 +1,45 @@
-<h1>Consult#index</h1>
-<p>Find me in app/views/consult/index.html.erb</p>
+<div id="header">
+
+  <ul>
+    <li id="current"><%= link_to "Consulting", consult_index_path %></li>
+    <li><%= link_to "C.V.", cv_index_path %></li>
+    <li><%= link_to "Projects", projects_index_path %></li>
+    <li><%= link_to "About", home_index_path %></li>
+
+  </ul>
+</div>
+
+<div id="contents">
+
+<div id="main">
+<div id="rightcol"><h2>GIS Consulting Services</h2>
+
+<p style="border: 1px solid black; padding: 3px;text-align: center;"><b>Note:</b> As of September 2008, I am an employee in <a href="http://nature.berkeley.edu/kremenlab/index.html">Claire Kremen's Lab</a> at UC Berkeley (based at WCS Madagascar), and not currently available for outside consulting work.</p>
+<p>Tom Allnutt is a GIS consultant specializing in ArcView&#8482; (3.x), ArcGIS&#8482; (9.x), Avenue&#8482;, VB&#8482; and VBA&#8482;, Ruby, Ruby on Rails, CSS and database design.</p>
+
+<p>Available services include "on-demand" GIS analysis, map production, technical writing, web programming and design, and the development of custom desktop GIS applications, particularly in the field of conservation planning and priority setting.</p>
+<p>For more details and examples of recently completed projects, please click on the navigation tabs provided above.</p>
+<p><strong>Recent training and coursework</strong><br>
+Ruby (2007), Ruby on Rails (2007), .ASP and C# (2007), C++ (2006), Java (2006), ArcObjects/VBA (2006),Visual Basic (2001).</p>
+
+<p>Click <a href="http://www.chorographics.com/etc/calculate_species_richness.mxt">HERE</a> (.15 MB .mxt file) to download an ArcGIS template for calculating species richness from polygon based species distribution maps. This tool was programmed in ArcGIS using VBA.</p>
+
+<p>Click <a href="http://www.chorographics.com/etc/wwf_gap.zip">HERE</a> (1.6 MB .mxt file) to download an ArcView 3.x extension that serves as an interface for MARXAN. This extension has recently been used for conservation planning in Madagascar, the Guianas, DRC and elsewhere. This extension was programmed using Avenue in ArcView 3.x. More about this project can be found <a href="http://www.chorographics.com/projects.html#Marxan">here</a>.</p>
+
+<p>[Disclaimer: By clicking on the preceding links, the user understands that this software is provided "as is", and that no warranty of any kind is given or implied]</p>
+<br>
+<p><strong>Contact: <br>
+</strong><a href="mailto:chorographics@gmail.com">chorographics@gmail.com</a>
+</div>
+</div>
+</div>
+
+<%= render 'layouts/footer' %>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1151606-1";
+urchinTracker();
+</script>
+
